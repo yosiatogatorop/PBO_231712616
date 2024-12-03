@@ -1,0 +1,14 @@
+1. Jelaskan bagaimana konsep exception handling dapat membantu meningkatkan kualitas dan ketahanan suatu system atau aplikasi!
+Jawab:
+Exception Handling adalah mekanisme dalam pemrograman untuk menangani kesalahan (error) atau kondisi yang tidak diinginkan selama eksekusi program secara terstruktur.
+
+2. Dalam sistem yang telah Anda kerjakan sebelumnya, apa peran try-catch dalam menangani error dan bagaimana cara kerja finally dalam sistem tersebut?
+Jawab: 
+Sistem pendaftaran Universitas Cenderawasih dan sistem kasir Baratie Restaurant memanfaatkan exception handling untuk memastikan validasi data berjalan lancar.
+Di Universitas Cenderawasih, async/await digunakan untuk menangani kesalahan seperti data kosong atau umur tidak valid, tanpa mengganggu proses pendaftaran lain. Di Baratie Restaurant, 
+try-catch memastikan hanya input angka yang valid, dengan pesan error seperti "Amount given is less than the total price", dan blok finally membersihkan sumber daya setelah transaksi. 
+Kedua sistem ini meningkatkan keandalan proses dan pengalaman pengguna melalui penanganan kesalahan yang efisien.
+
+3. Deskripsikan kelas PEMOGRAMAN BERBASIS OBYEK dalam 2 kata
+Jawab: 
+ Tidak Tertebak
